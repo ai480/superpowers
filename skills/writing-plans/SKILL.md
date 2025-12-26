@@ -87,11 +87,21 @@ git commit -m "feat: add specific feature"
 ```
 ```
 
+## Domain-Specific Skills
+
+Include skill instructions in plans when applicable:
+
+**Frontend/UI tasks:** Add to task description:
+```
+Before writing frontend code, invoke the Skill tool with
+skill="frontend-design:frontend-design" and follow its design-first approach.
+```
+
 ## Remember
 - Exact file paths always
 - Complete code in plan (not "add validation")
 - Exact commands with expected output
-- Reference relevant skills with @ syntax
+- Reference relevant skills with @ syntax (including domain-specific skills like frontend-design)
 - DRY, YAGNI, TDD, frequent commits
 
 ## Execution Handoff

@@ -11,10 +11,20 @@ Help turn ideas into fully formed designs and specs through natural collaborativ
 
 Start by understanding the current project context, then ask questions one at a time to refine the idea. Once you understand what you're building, present the design in small sections (200-300 words), checking after each section whether it looks right so far.
 
+## Domain-Specific Skills
+
+Before brainstorming, check if the work involves specialized domains:
+
+**Frontend/UI work:** If the idea involves components, pages, interfaces, or visual design:
+- Invoke the Skill tool with `skill="frontend-design:frontend-design"` FIRST
+- Use its design principles to inform aesthetic direction during brainstorming
+- Apply its guidelines when exploring visual approaches
+
 ## The Process
 
 **Understanding the idea:**
 - Check out the current project state first (files, docs, recent commits)
+- For frontend work: Apply frontend-design skill principles to guide design exploration
 - Ask questions one at a time to refine the idea
 - Prefer multiple choice questions when possible, but open-ended is fine too
 - Only one question per message - if a topic needs more exploration, break it into multiple questions
