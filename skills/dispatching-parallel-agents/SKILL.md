@@ -85,6 +85,24 @@ Good agent prompts are:
 1. **Focused** - One clear problem domain
 2. **Self-contained** - All context needed to understand the problem
 3. **Specific about output** - What should the agent return?
+4. **Skill-aware** - Include relevant skill invocations for domain-specific work
+
+### Domain-Specific Skills
+
+When dispatching agents for specialized work, include skill instructions in the prompt:
+
+**Frontend/UI agents:**
+```
+Before writing any frontend code, invoke the Skill tool with
+skill="frontend-design:frontend-design" and follow its design-first approach.
+```
+
+**Implementation agents:**
+```
+Use superpowers:test-driven-development when writing code.
+```
+
+This ensures subagents leverage installed plugins for higher quality output.
 
 ```markdown
 Fix the 3 failing tests in src/agents/agent-tool-abort.test.ts:

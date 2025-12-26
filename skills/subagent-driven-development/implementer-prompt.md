@@ -41,6 +41,20 @@ Task tool (general-purpose):
     **While you work:** If you encounter something unexpected or unclear, **ask questions**.
     It's always OK to pause and clarify. Don't guess or make assumptions.
 
+    ## Skills to Use
+
+    Before implementing, check if domain-specific skills apply:
+
+    **Frontend/UI work:** If this task involves components, pages, styles, or user interfaces:
+    - Invoke the Skill tool with `skill="frontend-design:frontend-design"` BEFORE writing any frontend code
+    - Follow its design-first approach for distinctive, high-quality interfaces
+    - This applies to: React/Vue/Svelte components, HTML/CSS, styling, layouts, animations
+
+    **All implementation:** Use `superpowers:test-driven-development` when writing code.
+
+    **Other installed skills:** Check available skills with the Skill tool if the task domain
+    might have specialized guidance (e.g., API design, database work, etc.).
+
     ## Before Reporting Back: Self-Review
 
     Review your work with fresh eyes. Ask yourself:

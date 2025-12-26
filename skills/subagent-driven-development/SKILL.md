@@ -236,5 +236,9 @@ Done!
 **Subagents should use:**
 - **superpowers:test-driven-development** - Subagents follow TDD for each task
 
+**Domain-specific skills (include in subagent prompts when applicable):**
+- **frontend-design:frontend-design** - For UI/component work; invoke BEFORE writing frontend code
+- Check for other installed domain skills that match the task type
+
 **Alternative workflow:**
 - **superpowers:executing-plans** - Use for parallel session instead of same-session execution
