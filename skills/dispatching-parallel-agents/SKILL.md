@@ -102,6 +102,8 @@ skill="frontend-design:frontend-design" and follow its design-first approach.
 Use superpowers:test-driven-development when writing code.
 ```
 
+**External Documentation:** Before writing code using any external library, use Context7's `resolve-library-id` and `query-docs` to fetch current documentation. This is mandatory.
+
 This ensures subagents leverage installed plugins for higher quality output.
 
 ```markdown

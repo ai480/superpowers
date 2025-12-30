@@ -20,6 +20,13 @@ Before brainstorming, check if the work involves specialized domains:
 - Use its design principles to inform aesthetic direction during brainstorming
 - Apply its guidelines when exploring visual approaches
 
+## External Documentation
+
+Before exploring technical approaches for any feature involving external libraries:
+- Use Context7's `resolve-library-id` and `query-docs` to fetch current documentation
+- Base design decisions on current APIs, not training data
+- This applies even for well-known libraries (React, Express, etc.)
+
 ## The Process
 
 **Understanding the idea:**

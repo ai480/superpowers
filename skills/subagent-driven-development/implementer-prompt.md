@@ -52,6 +52,14 @@ Task tool (general-purpose):
 
     **All implementation:** Use `superpowers:test-driven-development` when writing code.
 
+    ## External Documentation
+
+    Before writing ANY code that uses external libraries, frameworks, or APIs:
+    1. Use Context7's `resolve-library-id` to find the library
+    2. Use Context7's `query-docs` to fetch current documentation
+
+    Do this EVERY time, even for libraries you "know". Training data is stale. APIs change. Fetch first, code second.
+
     **Other installed skills:** Check available skills with the Skill tool if the task domain
     might have specialized guidance (e.g., API design, database work, etc.).
 

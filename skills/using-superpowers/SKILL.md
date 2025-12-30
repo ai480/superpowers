@@ -74,6 +74,14 @@ When multiple skills could apply, use this order:
 "Let's build X" → brainstorming first, then implementation skills.
 "Fix this bug" → debugging first, then domain-specific skills.
 
+## External Documentation (Context7)
+
+Before writing ANY code using external libraries, frameworks, or APIs:
+1. Use Context7's `resolve-library-id` to find the library
+2. Use Context7's `query-docs` to fetch current documentation
+
+This is not optional. Training data becomes stale. Even if you "know" the library, fetch current docs. The cost of a lookup is trivial compared to debugging outdated code.
+
 ## Skill Types
 
 **Rigid** (TDD, debugging): Follow exactly. Don't adapt away discipline.

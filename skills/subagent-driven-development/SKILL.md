@@ -240,5 +240,8 @@ Done!
 - **frontend-design:frontend-design** - For UI/component work; invoke BEFORE writing frontend code
 - Check for other installed domain skills that match the task type
 
+**External tools:**
+- **Context7** - Fetch current library documentation. Use `resolve-library-id` then `query-docs` BEFORE writing any code using external dependencies. This is mandatory, not optional.
+
 **Alternative workflow:**
 - **superpowers:executing-plans** - Use for parallel session instead of same-session execution

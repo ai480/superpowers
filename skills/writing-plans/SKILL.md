@@ -97,6 +97,13 @@ Before writing frontend code, invoke the Skill tool with
 skill="frontend-design:frontend-design" and follow its design-first approach.
 ```
 
+## External Documentation
+
+Before writing implementation steps that use external libraries:
+- Use Context7 to fetch current documentation for ALL dependencies involved
+- Include version-specific APIs in task specifications
+- Never assume training data reflects current library behavior
+
 ## Remember
 - Exact file paths always
 - Complete code in plan (not "add validation")
